@@ -15,15 +15,8 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        // when we rotate the phone , the value will not be saved
-        var counter = 0
-        binding.counter.text = "counter : $counter"
+        //Welcome to main branch
 
-        binding.button.setOnClickListener {
-            counter += 1
-            binding.counter.text = "counter : $counter"
-
-        }
 
     }
 }
